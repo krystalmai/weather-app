@@ -55,6 +55,8 @@ function App() {
   const iconUrl = `${iconBase}${weatherInfo.icon}@2x.png`;
   return (
     <div className="App">
+      <h1 className="app-title">Weather Lookup</h1>
+
       <form onSubmit={handleSubmit}>
         <input
           className="search-box"

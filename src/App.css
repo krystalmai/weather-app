@@ -7,6 +7,9 @@
   align-items: center;
   justify-content: flex-start;
 }
+.app-title {
+  color: rgb(200, 20, 255);
+}
 .search-box {
   line-height: 2em;
   font-size: 1em;
